@@ -1,25 +1,25 @@
 # SENG365 Web Server Assignment
 
-Backend/server-side of an auction web app. My first attempt at a javascript web app.
+Backend web REST server for an auction web app. My first take at javascript, node and web development.
 
-### Instructions
+How I found my time to complete this, and with an A+ is beyond me during the most hectic and 
+chaotic semester experienced with at least three final-level courses (out of at least five) straight from hell. 
 
-The [database credentials](https://github.com/R055A/AuctionAppServer/blob/master/config/db.js) have been removed. The program will require a database connection.
+# Instructions
 
-To install nodejs and npm, enter the BASH command:
+## Requirements
 
+* Node.js
+* MySQL database - [enter credentials here](./config/db.js)
+
+## Install
+
+```bash
+npm install
 ```
-sudo apt install nodejs npm
-```
 
-Navigate to the directory and install the npm dependencies:
+## Run
 
-```
-sudo npm install -g
-```
-
-After installing the npm dependencies, enter the following:
-
-```
+```bash
 npm start
 ```
